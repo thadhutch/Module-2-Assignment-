@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+header {
+
+	padding: 10 40px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 175%;
+}
+
+section {
+	background: white;
+}
+
+div {
+	background: gray;
+	font-size: 12px;
+	height: 125px;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width: 75%;
+
+
+}
+
+p {
+	margin-top: 30px;  
+	margin-left: 10px;  
+	margin-right: 10px; 
+}
+
+h4 {
+	float: right;
+	height: 20px;
+	line-height: 20px;
+	width: 100px;
+	background: red;
+	text-align: center;
+	border: 1px solid black;
+	font-size: 125%;
+}
+
+#head1 {
+	background: pink;
+}
+
+#head2 {
+	color: white;
+}
+
+#head3 {
+	background: yellow;
+}
+
+
+/* RESPONSIVE RULES */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.Medium {
+		display: inline-block;
+		width: 49%;
+		margin-left:5px;
+	}
+	#Fruits3 {
+		width: 99%;
+	}
+}
+	
+	
+
+
+@media screen and (min-width:992px) {
+	section {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	div {
+		width: 32.33%;
+	}
+}
+
+
+
+
+
